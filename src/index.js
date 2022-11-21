@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ExpenseItem from './components/ExpenseItem';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ExpenseItem/>
+  <div>
+    {/* <ExpenseItem/>
+    <ExpenseItem/> */}
+    <App></App>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
